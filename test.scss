@@ -1,0 +1,22 @@
+$red : red;
+
+@mixin rounded($radius : 5) {
+	-web-kit-border-radius:$radius;
+	-moz-border-radius:$radius;
+	border-radius:$radius;
+}
+
+body {
+	color: $red;
+} 
+ .green {
+	@include rounded(10px);
+} 
+.red {
+	@extend .green;
+	color: red;
+}
+.yellow{
+	color: yellow;
+}     
+
