@@ -1,0 +1,15 @@
+body {
+  color: red; }
+
+.green, .red {
+  -web-kit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+.red {
+  color: blue; }
+
+.yellow {
+  color: yellow; }
+
+/*# sourceMappingURL=test.css.map */
